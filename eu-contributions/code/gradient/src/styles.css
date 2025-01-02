@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+.legend-item {
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.legend-item:hover {
+  opacity: 0.8;
+}
+
+.legend-item text {
+  font-size: 12px;
+}
+
+svg {
+  background-color: #fff;
+  margin: 20px;
+}
+
+/* styles.css */
+.country-label {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  fill: #333;
+}
+
+.country-point:hover {
+  stroke-width: 2px;
+  cursor: pointer;
+}
+
+.legend-title {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.legend rect {
+  stroke: #ccc;
+  stroke-width: 1px;
+}
